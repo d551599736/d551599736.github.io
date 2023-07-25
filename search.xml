@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2023/07/24/%E5%9F%BA%E4%BA%8EHexo%E6%9E%84%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2023/07/24/%E5%9F%BA%E4%BA%8EHexo%E6%9E%84%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基于Hexo构建免费的个人博客"><a href="#基于Hexo构建免费的个人博客" class="headerlink" title="基于Hexo构建免费的个人博客"></a>基于Hexo构建免费的个人博客</h1><h2 id="1-软件安装"><a href="#1-软件安装" class="headerlink" title="1.软件安装"></a>1.软件安装</h2><p>博客网站开发框架： <strong>nodejs</strong> $ \Rightarrow$ <strong>hexo</strong> $\Rightarrow$ <strong>butterfly</strong></p><p>hexo这个框架基于hodejs开发的，hexo可以根据不同的主题生成不同风格的博客静态网站；</p><p>开发环境工具：<strong>git</strong> $\Rightarrow $ <strong>vscode $\Rightarrow$</strong> <strong>github、gitee</strong></p><p>通过git版本管理工具管理github或者gitee平台上的hexo生成的网站代码，开启github&#x2F;gitee平台的pages(网站)功能，免费发布个人博客。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CentOS7下安装JDK1.8详细过程</title>
       <link href="/2023/07/21/CentOS7%E4%B8%8B%E5%AE%89%E8%A3%85JDK1-8%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/"/>
       <url>/2023/07/21/CentOS7%E4%B8%8B%E5%AE%89%E8%A3%85JDK1-8%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/</url>
