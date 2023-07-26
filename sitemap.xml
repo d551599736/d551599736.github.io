@@ -58,7 +58,7 @@
 
   <url>
     <loc>https://blog.hihahoo.com/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,14 +66,14 @@
   
   <url>
     <loc>https://blog.hihahoo.com/tags/%E6%96%B0%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hihahoo.com/tags/jdk-centos/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -82,7 +82,7 @@
   
   <url>
     <loc>https://blog.hihahoo.com/categories/study/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
