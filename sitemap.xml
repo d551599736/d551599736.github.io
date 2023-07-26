@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hihahoo.com/archives/9daba997.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hihahoo.com/archives/0.html</loc>
     
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,16 @@
   <url>
     <loc>https://blog.hihahoo.com/archives/4a17b156.html</loc>
     
-    <lastmod>2023-07-21</lastmod>
+    <lastmod>2023-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/archives/0.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +40,7 @@
   <url>
     <loc>https://blog.hihahoo.com/archives/fc6989f3.html</loc>
     
-    <lastmod>2023-07-21</lastmod>
+    <lastmod>2023-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
