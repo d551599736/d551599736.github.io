@@ -4,39 +4,25 @@
   
     
     <entry>
-      <title>测试</title>
-      <link href="/archives/9daba997.html"/>
-      <url>/archives/9daba997.html</url>
+      <title>基于Hexo构建免费的个人博客</title>
+      <link href="/archives/fc6989f1.html"/>
+      <url>/archives/fc6989f1.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/archives/40.html"/>
-      <url>/archives/40.html</url>
-      
-        <content type="html"><![CDATA[<p>测试</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="基于Hexo构建免费的个人博客"><a href="#基于Hexo构建免费的个人博客" class="headerlink" title="基于Hexo构建免费的个人博客"></a>基于Hexo构建免费的个人博客</h1><h2 id="1-软件安装"><a href="#1-软件安装" class="headerlink" title="1.软件安装"></a>1.软件安装</h2><p><strong>博客网站开发框架</strong>： <strong>nodejs</strong> –&gt;<strong>hexo</strong> –&gt; <strong>butterfly</strong></p><p>hexo这个框架基于hodejs开发的，hexo可以根据不同的主题生成不同风格的博客静态网站；</p><p><strong>开发环境工具</strong>：<strong>git</strong> –&gt;<strong>vscode –&gt;</strong> <strong>github、gitee</strong></p><p>通过git版本管理工具管理github或者gitee平台上的hexo生成的网站代码，开启github&#x2F;gitee平台的pages(网站)功能，免费发布个人博客。</p><h2 id="2-安装Hexo项目，配置Hexo项目-config-xml"><a href="#2-安装Hexo项目，配置Hexo项目-config-xml" class="headerlink" title="2. 安装Hexo项目，配置Hexo项目_config.xml"></a>2. 安装Hexo项目，配置Hexo项目_config.xml</h2><p>1.安装hexo脚手架</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-cli</span> <span class="literal">-g</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>2.配置_config.xml</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="comment"># 网站标题 主页标语 导航的标题</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="comment"># 个人标签的描述</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="comment">#</span></span><br><span class="line"><span class="attr">author:</span> <span class="comment"># 作者</span></span><br><span class="line"><span class="attr">language:</span> <span class="comment"># 国际化</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">email:</span> <span class="comment">#邮箱</span></span><br></pre></td></tr></table></figure><h2 id="3-集成配置主题butterfly"><a href="#3-集成配置主题butterfly" class="headerlink" title="3.集成配置主题butterfly"></a>3.集成配置主题butterfly</h2><p>1.修改Hexo根目录下的<u>_config.yml</u>,把主题改为<u>butterfly</u></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><p>2.如果你沒有 pug 以及 stylus 的渲染器，下载安裝：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-renderer-pug</span> hexo<span class="literal">-renderer-stylus</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure><p>3.在hexo跟目录下，把主题butterfly拉取至hexo项目themes目录, 升級方法：在主題目录下，運行 git pull</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone <span class="literal">-b</span> master https://github.com/jerryc127/hexo<span class="literal">-theme-butterfly</span>.git themes/butterfly</span><br></pre></td></tr></table></figure><p>目录结构：</p><p><img src="https://raw.githubusercontent.com/d551599736/picgo/master/img/20230726202728.png"></p><p>4.在 hexo 的根目录创建一个文件 _config.butterfly.yml，并把主题目录的 _config.yml 內容复制到 _config.butterfly.yml 去。( 注意: 复制的是主题的 _config.yml ，而不是 hexo 的 _config.yml)</p><p><img src="https://cdn.jsdelivr.net/gh/d551599736/picgo@master/img/20230726210551.png"></p>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/archives/0.html"/>
-      <url>/archives/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="基于Hexo构建免费的个人博客"><a href="#基于Hexo构建免费的个人博客" class="headerlink" title="基于Hexo构建免费的个人博客"></a>基于Hexo构建免费的个人博客</h1><h2 id="1-软件安装"><a href="#1-软件安装" class="headerlink" title="1.软件安装"></a>1.软件安装</h2><p>博客网站开发框架： <strong>nodejs</strong> $ \Rightarrow$ <strong>hexo</strong> $\Rightarrow$ <strong>butterfly</strong></p><p>hexo这个框架基于hodejs开发的，hexo可以根据不同的主题生成不同风格的博客静态网站；</p><p>开发环境工具：<strong>git</strong> $\Rightarrow $ <strong>vscode $\Rightarrow$</strong> <strong>github、gitee</strong></p><p>通过git版本管理工具管理github或者gitee平台上的hexo生成的网站代码，开启github&#x2F;gitee平台的pages(网站)功能，免费发布个人博客。</p>]]></content>
+      <categories>
+          
+          <category> nodejs </category>
+          
+      </categories>
       
       
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
@@ -54,31 +40,6 @@
         <tags>
             
             <tag> jdk,centos </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/archives/4a17b156.html"/>
-      <url>/archives/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>哪個英文字母最酷？ <span class="hide-inline"><button type="button" class="hide-button" style="background-color: #FF7242;color: #fff">查看答案  </button><span class="hide-content">因為西裝褲(C裝酷)</span></span></p><p>門裏站着一個人? <span class="hide-inline"><button type="button" class="hide-button" style="">Click  </button><span class="hide-content">閃</span></span></p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> study </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 新学习 </tag>
             
         </tags>
       

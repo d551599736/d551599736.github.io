@@ -2,34 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.hihahoo.com/archives/40.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hihahoo.com/archives/9daba997.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hihahoo.com/archives/4a17b156.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hihahoo.com/archives/0.html</loc>
+    <loc>https://blog.hihahoo.com/archives/fc6989f1.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
@@ -90,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hihahoo.com/tags/%E6%96%B0%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://blog.hihahoo.com/tags/hexo/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -99,7 +72,7 @@
 
   
   <url>
-    <loc>https://blog.hihahoo.com/categories/study/</loc>
+    <loc>https://blog.hihahoo.com/categories/nodejs/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
