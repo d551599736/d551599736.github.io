@@ -4,7 +4,16 @@
   <url>
     <loc>https://blog.hihahoo.com/archives/fc6989f1.html</loc>
     
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/manifest.json</loc>
+    
+    <lastmod>2023-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://blog.hihahoo.com/</loc>
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,14 +66,14 @@
   
   <url>
     <loc>https://blog.hihahoo.com/tags/jdk-centos/</loc>
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hihahoo.com/tags/hexo/</loc>
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -73,7 +82,7 @@
   
   <url>
     <loc>https://blog.hihahoo.com/categories/nodejs/</loc>
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
