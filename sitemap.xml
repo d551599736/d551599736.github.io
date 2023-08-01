@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f3.html</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hihahoo.com/archives/fc6989f1.html</loc>
     
     <lastmod>2023-08-01</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://blog.hihahoo.com/manifest.json</loc>
     
     <lastmod>2023-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hihahoo.com/archives/fc6989f3.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -74,7 +74,14 @@
 
   
   <url>
-    <loc>https://blog.hihahoo.com/tags/jdk-centos/</loc>
+    <loc>https://blog.hihahoo.com/tags/jdk/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/tags/centos/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -95,6 +102,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://blog.hihahoo.com/categories/java/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://blog.hihahoo.com/categories/nodejs/</loc>

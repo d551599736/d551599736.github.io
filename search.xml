@@ -38,10 +38,18 @@
         <content type="html"><![CDATA[<h1 id="CentOS7下安装JDK1-8详细过程"><a href="#CentOS7下安装JDK1-8详细过程" class="headerlink" title="CentOS7下安装JDK1.8详细过程"></a><a href="https://so.csdn.net/so/search?q=CentOS7&spm=1001.2101.3001.7020">CentOS7</a>下安装JDK1.8详细过程</h1><h2 id="1-卸载系统自带的OpenJDK以及相关的java文件"><a href="#1-卸载系统自带的OpenJDK以及相关的java文件" class="headerlink" title="1. 卸载系统自带的OpenJDK以及相关的java文件"></a><em><strong>1. 卸载系统自带的OpenJDK以及相关的java文件</strong></em></h2><p>1.1 查看系统是否自带JDK </p><p>键入命令 java -version</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure><p>1.2 查看相关java文件</p><p>键入命令 rpm -qa | grep java</p><p>1.3 删除相关文件</p><p>首先键入命令 su root 输入密码获取root权限，然后将上一步中带<a href="https://so.csdn.net/so/search?q=openjdk&spm=1001.2101.3001.7020">openjdk</a>的文件全部删除，具体根据你安装的版本不同，文件也不尽相同，这里以上一步中的文件为例。</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rpm -e --nodeps java-1.8.0-openjdk-headless-1.8.0.65-3.b17.el7.x86_64</span><br><span class="line">rpm -e --nodeps java-1.8.0-openjdk-1.8.0.65-3.b17.el7.x86_64</span><br></pre></td></tr></table></figure><p>1.4 查看删除结果</p><p>再次键入命令 java -version 出现以下结果表示删除成功</p><h2 id="2-下载JDK"><a href="#2-下载JDK" class="headerlink" title="2. 下载JDK"></a><strong>2. 下载JDK</strong></h2><p>下载地址<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></p><p>往下来拉找到jdk1.8版本的下载地址，点击下载对应的tar.gz文件</p><p>在home下的下载中找到下好的文件，此时文件所在的目录为&#x2F;home&#x2F;你的主机名字&#x2F;下载</p><p>键入命令 cp jdk-8u211-linux-x64.tar.gz &#x2F;usr&#x2F;java1.8 将文件复制到&#x2F;usr 下重命名为java1.8</p><p>这一步需要root权限，没有权限需要先键入命令su root 获取权限</p><h2 id="3-解压安装JDK"><a href="#3-解压安装JDK" class="headerlink" title="3. 解压安装JDK"></a><strong>3. 解压安装JDK</strong></h2><p>键入命令 cd &#x2F;usr 来到刚才的复制文件处，键入命令tar -zxvf java1.8 进行解压 解压效果如下</p><h2 id="4-配置JDK环境变量"><a href="#4-配置JDK环境变量" class="headerlink" title="4. 配置JDK环境变量"></a><strong>4. 配置JDK环境变量</strong></h2><p>键入命令 vim &#x2F;etc&#x2F;profile 修改配置文件，记得要在root权限下修改</p><p>输入i进入编辑状态，然后将光标移到最后一行，粘贴如下内容，JAVA_HOME&#x3D;&#x2F;usr&#x2F;jdk1.8.0_211 要根据自己的解压目录设置</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">java environment</span></span><br><span class="line">export JAVA_HOME=/usr/jdk1.8.0_211</span><br><span class="line">export CLASSPATH=.:$&#123;JAVA_HOME&#125;/jre/lib/rt.jar:$&#123;JAVA_HOME&#125;/lib/dt.jar:$&#123;JAVA_HOME&#125;/lib/tools.jar</span><br><span class="line">export PATH=$PATH:$&#123;JAVA_HOME&#125;/bin</span><br></pre></td></tr></table></figure><p>点击esc 进入命令模式 输入：wq! 保存修改信息</p><p>然后键入命令source &#x2F;etc&#x2F;profile 使配置文件生效</p><h2 id="5-测试安装效果"><a href="#5-测试安装效果" class="headerlink" title="5. 测试安装效果"></a><strong>5. 测试安装效果</strong></h2><p>键入命令 java -version 得到如下结果 表示安装成功</p>]]></content>
       
       
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> jdk,centos </tag>
+            <tag> jdk </tag>
+            
+            <tag> centos </tag>
             
         </tags>
       
