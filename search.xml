@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Hexo|butterfly搜索引擎优化(SEO)</title>
+      <link href="/archives/fc6989f8.html"/>
+      <url>/archives/fc6989f8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-generator-baidu-sitemap</span> <span class="literal">--save</span></span><br><span class="line">npm install hexo<span class="literal">-generator-sitemap</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure><p>修改站点配置文件</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://blog.hihahoo.com</span></span><br><span class="line"><span class="comment"># 站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure><p><code>hexo g</code> ， <code>hexo s</code> 后，可以访问 <code>localhost:4000/sitemap.xml</code> 查看站点地图。</p><h1 id="2-提交百度收录"><a href="#2-提交百度收录" class="headerlink" title="2.提交百度收录"></a>2.提交百度收录</h1><p>查看站点是否被收录。</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:https://blog.hihahoo.com</span><br></pre></td></tr></table></figure><p>登录百度搜索资源平台，添加站点信息</p><p><img src="https://cdn.jsdelivr.net/gh/d551599736/picgo@master/img/20230805215104.png"></p><p>通过上图的验证码对网站的所有权验证，建议选择验证码方式，直接修改主题配置文件</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">site_verification:</span><br><span class="line">  # - name: google-site-verification</span><br><span class="line">  #   content: xxxxxx</span><br><span class="line"> - name: baidu-site-verification</span><br><span class="line">   content: HznZlBpisgS2ytDy</span><br></pre></td></tr></table></figure><h1 id="3-新文章自动提交百度收录"><a href="#3-新文章自动提交百度收录" class="headerlink" title="3.新文章自动提交百度收录"></a>3.新文章自动提交百度收录</h1><p>安装插件</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-baidu-url-submit</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure><p>修改站点配置文件</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 主动推送百度，被百度收录</span></span><br><span class="line"><span class="attr">baidu_url_submit:</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">10</span> <span class="comment">#提交最新的10个链接</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">https://blog.hihahoo.com</span> <span class="comment"># 百度站长平台中注册的域名</span></span><br><span class="line">  <span class="attr">token:</span> <span class="string">XXXXX</span> <span class="comment">#密钥，百度站长平台 &gt; 推送接口 &gt; 接口调用地址中token 字段</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidu_urls.txt</span> <span class="comment">#文本文档的地址，新链接会保存在此文本文档中，不用改</span></span><br></pre></td></tr></table></figure><p>hexo d -g 的时候都会主动生成对应文件推送百度</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> nodejs </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git代码同时上传到单独仓库(github、gitee、coding)</title>
+      <link href="/archives/fc6989f7.html"/>
+      <url>/archives/fc6989f7.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-在gitee、github、coding创建相同名字项目"><a href="#1-在gitee、github、coding创建相同名字项目" class="headerlink" title="1.在gitee、github、coding创建相同名字项目"></a>1.在gitee、github、coding创建相同名字项目</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">比如： 账号名: hihahoo 仓库名: hihahoo.github.io</span><br></pre></td></tr></table></figure><h1 id="2-关联远程仓库"><a href="#2-关联远程仓库" class="headerlink" title="2.关联远程仓库"></a>2.关联远程仓库</h1><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add gitee https://gitee.com/hihahoo/hihahoo.github.io</span><br><span class="line">git remote add github https://github.com/hihahoo/hihahoo.github.io</span><br><span class="line">git remote add coding https://coding.com/hihahoo/hihahoo.github.io</span><br></pre></td></tr></table></figure><h1 id="3-拉取github仓库代码至本地。同步代码至其他仓库"><a href="#3-拉取github仓库代码至本地。同步代码至其他仓库" class="headerlink" title="3.拉取github仓库代码至本地。同步代码至其他仓库"></a>3.拉取github仓库代码至本地。同步代码至其他仓库</h1><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">git pull github master</span><br><span class="line">From https://github.com/d551599736/d551599736.github.io</span><br><span class="line"> * branch            master     -&gt; FETCH_HEAD</span><br><span class="line">fatal: ref<span class="keyword">using</span> to merge unrelated histories  #报错</span><br><span class="line">git pull github master <span class="literal">--allow-unrelated-histories</span> <span class="comment">#添加 不用关联历史参数</span></span><br><span class="line">git push gitee master <span class="comment">#上传 gitee仓库</span></span><br><span class="line">git push coding master <span class="comment">#上传coding仓库</span></span><br><span class="line">hint: Updates were rejected because the tip of your current branch is behind</span><br><span class="line">hint: its remote counterpart. Integrate the remote changes (e.g.</span><br><span class="line">hint: <span class="string">&#x27;git pull ...&#x27;</span>) before pushing again.</span><br><span class="line">hint: See the <span class="string">&#x27;Note about fast-forwards&#x27;</span> <span class="keyword">in</span> <span class="string">&#x27;git push --help&#x27;</span> <span class="keyword">for</span> details. <span class="comment">#报错</span></span><br><span class="line">git push <span class="operator">-f</span> coding master</span><br><span class="line"><span class="comment">## 远程仓库的文件跟本地不一致，需要强制上传</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><blockquote><p>由于初始化项目，使用强制推送不会对项目造成影响，三个仓库数据代码保持一致！！！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搜索引擎优化(SEO)</title>
       <link href="/archives/fc6989f6.html"/>
       <url>/archives/fc6989f6.html</url>
