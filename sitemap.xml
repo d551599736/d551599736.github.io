@@ -2,9 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f3.html</loc>
+    
+    <lastmod>2023-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f12.html</loc>
+    
+    <lastmod>2023-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f20.html</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f11.html</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/archives/fc6989f10.html</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hihahoo.com/archives/fc6989f8.html</loc>
     
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,43 +157,57 @@
 
   <url>
     <loc>https://blog.hihahoo.com/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.hihahoo.com/tags/jdk/</loc>
-    <lastmod>2023-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hihahoo.com/tags/centos/</loc>
-    <lastmod>2023-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hihahoo.com/tags/git/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hihahoo.com/tags/hexo/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hihahoo.com/tags/nodejs/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/tags/jdk/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/tags/centos/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/tags/tools/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/tags/mysql/</loc>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -156,22 +215,36 @@
 
   
   <url>
-    <loc>https://blog.hihahoo.com/categories/java/</loc>
-    <lastmod>2023-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hihahoo.com/categories/git/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hihahoo.com/categories/nodejs/</loc>
-    <lastmod>2023-08-05</lastmod>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/categories/java/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hihahoo.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
